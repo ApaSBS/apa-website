@@ -92,6 +92,7 @@
 
 .data{
     text-align: end !important;
+    margin-top: 2vw !important;
 }
 
 
@@ -108,6 +109,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        margin-top: 2rem;
         
     }
     
@@ -132,18 +135,21 @@
     /* image */
     
     .imageContainer{
-        max-width: 100vw;
+
         height: fit-content;
     
         display: flex;
         align-items: center;
         justify-content: center;
+
+        width: 100vw;
     
         
     }
     .imageContainer img{
         border: 10px solid #f4f1f1;
         border-radius: 20px;
+        max-height: 100vw;
 
     }
     
@@ -157,6 +163,8 @@
     
         align-items: center;
         justify-items: center;
+
+        font-size: 1.5rem;
     }
     
     .contentContainer p{
@@ -164,5 +172,4 @@
         margin-top: -2vw;
         text-align: justify;
     }
-    
 }
