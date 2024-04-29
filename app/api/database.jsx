@@ -4,7 +4,8 @@ const { Client } = require('pg');
 const password = encodeURIComponent(process.env.SUPABASE_PASSWORD);
 
 // Sua string de conexão
-const connectionString = `postgresql://postgres:${password}@db.lpffliggephvshqyszop.supabase.co:5432/postgres`;
+const connectionString = `postgres://postgres.lpffliggephvshqyszop:${password}@aws-0-sa-east-1.pooler.supabase.com:5432/postgres`;
+
 
 // Crie um cliente PostgreSQL
 const client = new Client({
